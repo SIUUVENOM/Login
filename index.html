@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <div class="inner p-5 w-75 m-auto">
+            <h1 class="fw-bolder mb-4">Smart Login System</h1>
+                <input type="email" id="signinemail" placeholder="Enter your email" class=" w-100 rounded-1 mb-4 border border-white p-1">
+                <input type="password" id="signinpass" placeholder="Enter your password" class="w-100 rounded-1 mb-4 border border-white p-1">
+                <p class="text-danger d-none" id="emptyinputs">ALL inputs is required</p>
+                <p class="text-danger d-none" id="wrong">Email or password is wrong !!</p>
+                <button class="d-block m-auto w-100 btn btn-outline-info" id="signin">Sign In</button>
+                <p class="text-white p-3">You have an account?<a href="./html/sigup.html" class="text-decoration-none text-white p-2">Sign Up</a></p>
+            </div>
+        </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

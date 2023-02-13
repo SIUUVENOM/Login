@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <div class="inner p-5 w-75 m-auto">
+            <h1 class="fw-bolder mb-4">Smart Login System</h1>
+                <input type="text" id="signupname" placeholder="Enter your name" class=" w-100 rounded-1 mb-4 border border-white p-1">
+                <input type="email" id="signupemail" placeholder="Enter your email" class=" w-100 rounded-1 mb-4 border border-white p-1">
+                <p class="text-danger d-none" id="emaileror">Email already exists.</p>
+                <input type="password" id="usignuppass" placeholder="Enter your password" class="w-100 rounded-1 mb-4 border border-white p-1">
+                <p class="text-danger d-none" id="emptyinputs">ALL inputs is required</p>
+                <p class="text-success d-none" id="Success">Success.</p>
+                <button class="d-block m-auto w-100 btn btn-outline-info" id="signup">Sign Up</button>
+                <p class="text-white p-3">Don't have an account?<a href="../index.html" class="text-decoration-none text-white p-2">Sign In</a></p>
+            </div>
+        </div>
+    <script src="../js/script.js"></script>
+    </body>
+</html>
