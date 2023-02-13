@@ -54,7 +54,7 @@ if (signinBtn) {
 }
 
 if (username) {
-  username.innerText = `Welcom ${localStorage.getItem("usersession")}`;
+  username.innerText = `Welcome ${localStorage.getItem("usersession")}`;
 }
 
 function create() {
