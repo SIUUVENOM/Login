@@ -9,6 +9,7 @@
 body,
 .inner input ,.navbar{
     background-color: #24353f !important;
+    color: #fff;
 }
 
 .container h1 {
