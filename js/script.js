@@ -45,7 +45,6 @@ if (signinBtn) {
       ) {
         localStorage.setItem("usersession", userscontainer[i].uname);
         location.replace("./html/welcom.html");
-        wrong.classList.replace("d-block", "d-none");
       } else {
         wrong.classList.replace("d-none", "d-block");
       }
